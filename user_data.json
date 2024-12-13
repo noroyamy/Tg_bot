@@ -1,0 +1,34 @@
+{
+    "1376242458": {
+        "city": "Москва",
+        "district": "Юго-Западный",
+        "product": "Товар 1 - 1000₽",
+        "payment": null,
+        "current_step": "payment",
+        "previous_step": "product"
+    },
+    "883473526": {
+        "city": "Воронеж",
+        "district": "Центральный",
+        "product": "Товар 2 - 1500₽",
+        "payment": null,
+        "current_step": "payment",
+        "previous_step": "product"
+    },
+    "1376242458": {
+        "city": "Москва",
+        "district": "Юго-Западный",
+        "product": "Товар 2 - 1500₽",
+        "payment": null,
+        "current_step": "payment",
+        "previous_step": "product"
+    },
+    "883473526": {
+        "city": "Екатеринбург",
+        "district": "Орджоникидзевский",
+        "product": "Товар 2 - 1500₽",
+        "payment": null,
+        "current_step": "city",
+        "previous_step": "product"
+    }
+}

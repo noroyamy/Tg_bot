@@ -1,0 +1,1074 @@
+2024-12-12 20:35:38,797 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 20:55:12,662 - Ошибка: 1376242458
+2024-12-12 20:55:40,594 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 21:05:36,144 - Ошибка: list indices must be integers or slices, not str
+2024-12-12 21:05:56,809 - Ошибка: list indices must be integers or slices, not str
+2024-12-12 21:09:43,418 - Ошибка: 1376242458
+2024-12-12 21:10:00,729 - Ошибка: 1376242458
+2024-12-12 21:17:22,633 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 21:17:33,557 - Ошибка: slice(None, 3, None)
+2024-12-12 21:26:49,527 - Ошибка: 1376242458
+2024-12-12 21:27:11,297 - Ошибка: 1376242458
+2024-12-12 21:27:28,129 - Ошибка: 1376242458
+2024-12-12 21:27:47,913 - Ошибка: 1376242458
+2024-12-12 21:31:47,779 - Ошибка: 1376242458
+2024-12-12 21:32:54,860 - Ошибка: 1376242458
+2024-12-12 21:37:28,118 - Пользователь 1376242458 начал взаимодействие.
+2024-12-12 21:41:26,326 - Пользователь 883473526 начал взаимодействие.
+2024-12-12 22:26:23,425 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 22:32:28,331 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 22:43:52,291 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 22:47:59,458 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 22:50:29,724 - Пользователь 883473526 начал взаимодействие
+2024-12-12 23:10:26,096 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 23:18:54,201 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 23:26:23,745 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 23:31:13,439 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 23:46:51,705 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 23:55:53,025 - Ошибка: 1376242458
+2024-12-12 23:57:12,280 - Пользователь 1376242458 начал взаимодействие
+2024-12-12 23:57:20,276 - Ошибка: name 'InlineKeyboardMarkup' is not defined
+2024-12-13 00:14:51,371 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 00:15:00,876 - Пользователь 1376242458 завершил заказ: {'city': 'Уфа', 'district': 'Дёмский', 'product': 'Товар 1 - 1000\u20bd', 'payment': '\U0001f4b3 Перевод по карте', 'previous_step': 'product'}
+2024-12-13 00:15:07,176 - Пользователь 1376242458 завершил заказ: {'city': 'Уфа', 'district': 'Дёмский', 'product': 'Товар 1 - 1000\u20bd', 'payment': '\U0001f4de Перевод по номеру телефона', 'previous_step': 'product'}
+2024-12-13 00:15:08,915 - Пользователь 1376242458 завершил заказ: {'city': 'Уфа', 'district': 'Дёмский', 'product': 'Товар 1 - 1000\u20bd', 'payment': 'TON Wallet', 'previous_step': 'product'}
+2024-12-13 00:19:24,905 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 00:19:33,984 - Пользователь 1376242458 получил реквизиты: Номер карты: 1234 5678 9012 3456
+Имя получателя: Иван Иванов
+2024-12-13 00:34:05,866 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 00:43:14,013 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 00:51:47,356 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 00:52:06,732 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+2024-12-13 00:52:06,732 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 144, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+
+2024-12-13 00:56:32,528 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 00:57:17,600 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 00:57:17,605 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 155, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 01:00:16,787 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 01:00:51,956 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 01:00:51,956 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 155, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 01:35:52,358 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 01:36:04,933 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+2024-12-13 01:36:04,938 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 147, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+
+2024-12-13 01:46:05,014 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 01:46:22,307 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+2024-12-13 01:46:22,307 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 149, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+
+2024-12-13 01:52:10,514 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 02:09:23,765 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 02:09:39,911 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+2024-12-13 02:09:39,911 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 151, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+
+2024-12-13 02:10:18,898 - Пользователь 883473526 начал взаимодействие
+2024-12-13 02:11:34,834 - Пользователь 883473526 начал взаимодействие
+2024-12-13 02:12:15,438 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+2024-12-13 02:12:15,438 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 151, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 30
+
+2024-12-13 02:21:15,252 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 02:21:15,252 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 153, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 02:27:04,873 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 02:27:42,570 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 02:27:42,580 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 153, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 02:47:04,782 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 02:47:15,867 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 02:47:41,687 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 02:47:41,687 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 162, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 02:53:41,461 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 02:57:33,747 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 02:57:33,747 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 161, in payment_handler
+    f"Вы выбрали {payment_type}:\n\nТип: {payment_info['type']}",
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:01:25,137 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 03:13:00,818 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:13:00,820 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 164, in payment_handler
+    payment_info = PAYMENT_DETAILS[payment_type]
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:15:20,188 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 03:15:59,268 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 03:18:35,130 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:18:35,131 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+    # Генерация главного меню
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:21:25,407 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:21:25,407 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 164, in payment_handler
+    bot.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:50:32,830 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 03:55:21,659 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 03:55:28,988 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:55:28,990 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+    chat_id,
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:55:33,730 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:55:33,734 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+    chat_id,
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:55:35,369 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:55:35,372 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+    chat_id,
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:55:37,410 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 03:55:37,412 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+    chat_id,
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 03:56:56,469 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 04:02:02,049 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 12:07:25,675 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 12:17:28,887 - Пользователь 1376242458 начал взаимодействие
+2024-12-13 12:17:39,444 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:39,445 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:41,339 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:41,343 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:43,232 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:43,233 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:44,653 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:44,655 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:44,917 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:44,925 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:45,455 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:45,464 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:46,593 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:46,603 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:46,873 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:46,875 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:47,451 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:47,454 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:48,561 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:48,566 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 12:17:50,584 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+2024-12-13 12:17:50,584 - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Python312\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 9165, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noroy\Tg_bot\bot.py", line 173, in payment_handler
+  File "C:\Python312\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 10
+
+2024-12-13 13:03:31,392 - Ошибка: string indices must be integers, not 'str'
+2024-12-13 13:03:56,647 - Ошибка: string indices must be integers, not 'str'
+2024-12-13 13:04:58,368 - Ошибка: string indices must be integers, not 'str'
+2024-12-13 13:07:29,168 - Ошибка при запуске бота: string indices must be integers, not 'str'
+2024-12-13 13:07:45,668 - Ошибка при запуске бота: string indices must be integers, not 'str'
+2024-12-13 13:09:49,530 - Ошибка при запуске бота: string indices must be integers, not 'str'
+2024-12-13 13:12:29,527 - Данные загружены успешно из data.json
+2024-12-13 13:12:29,541 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:12:42,177 - Данные пользователей успешно сохранены.
+2024-12-13 13:12:42,177 - Ошибка при создании клавиатуры для выбора города: string indices must be integers, not 'str'
+2024-12-13 13:12:42,677 - Данные пользователей успешно сохранены.
+2024-12-13 13:12:46,837 - Ошибка при запуске бота: string indices must be integers, not 'str'
+2024-12-13 13:16:05,957 - Данные загружены успешно из data.json
+2024-12-13 13:16:05,967 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:16:06,987 - Ошибка при запуске бота: string indices must be integers, not 'str'
+2024-12-13 13:16:29,906 - Данные загружены успешно из data.json
+2024-12-13 13:16:29,906 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:16:46,589 - Данные пользователей успешно сохранены.
+2024-12-13 13:16:46,589 - Ошибка при создании клавиатуры для выбора города: string indices must be integers, not 'str'
+2024-12-13 13:16:47,087 - Данные пользователей успешно сохранены.
+2024-12-13 13:16:50,204 - Ошибка при запуске бота: string indices must be integers, not 'str'
+2024-12-13 13:18:39,236 - Данные загружены успешно из data.json
+2024-12-13 13:18:39,246 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:18:50,036 - Данные пользователей успешно сохранены.
+2024-12-13 13:18:50,547 - Данные пользователей успешно сохранены.
+2024-12-13 13:18:53,517 - Пользователь 1376242458 выбрал город: Moscow
+2024-12-13 13:18:53,517 - Данные пользователей успешно сохранены.
+2024-12-13 13:19:00,377 - Пользователь 1376242458 вернулся на шаг: city
+2024-12-13 13:19:00,537 - Данные пользователей успешно сохранены.
+2024-12-13 13:19:01,817 - Пользователь 1376242458 выбрал город: Moscow
+2024-12-13 13:19:01,817 - Данные пользователей успешно сохранены.
+2024-12-13 13:19:11,187 - Пользователь 1376242458 вернулся на шаг: city
+2024-12-13 13:19:11,377 - Данные пользователей успешно сохранены.
+2024-12-13 13:19:13,286 - Пользователь 1376242458 выбрал город: St. Petersburg
+2024-12-13 13:19:13,286 - Данные пользователей успешно сохранены.
+2024-12-13 13:23:39,746 - Данные загружены успешно из data.json
+2024-12-13 13:23:39,746 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:23:51,528 - Данные пользователей успешно сохранены.
+2024-12-13 13:23:51,976 - Данные пользователей успешно сохранены.
+2024-12-13 13:23:53,546 - Пользователь 1376242458 выбрал город: Moscow
+2024-12-13 13:23:53,546 - Данные пользователей успешно сохранены.
+2024-12-13 13:27:22,816 - Данные загружены успешно из data.json
+2024-12-13 13:27:22,828 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:27:31,010 - Данные пользователей успешно сохранены.
+2024-12-13 13:27:31,426 - Данные пользователей успешно сохранены.
+2024-12-13 13:27:32,716 - Пользователь 1376242458 выбрал город: Moscow
+2024-12-13 13:27:32,716 - Данные пользователей успешно сохранены.
+2024-12-13 13:57:37,122 - Данные загружены успешно из data.json
+2024-12-13 13:57:37,132 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 13:57:48,092 - Данные пользователей успешно сохранены.
+2024-12-13 13:57:48,542 - Данные пользователей успешно сохранены.
+2024-12-13 13:57:50,262 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 13:57:50,271 - Данные пользователей успешно сохранены.
+2024-12-13 13:57:52,313 - Данные пользователей успешно сохранены.
+2024-12-13 13:57:54,132 - Данные пользователей успешно сохранены.
+2024-12-13 13:58:01,533 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 13:58:01,783 - Данные пользователей успешно сохранены.
+2024-12-13 13:58:03,112 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 13:58:03,302 - Данные пользователей успешно сохранены.
+2024-12-13 13:58:04,634 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 13:58:04,862 - Данные пользователей успешно сохранены.
+2024-12-13 13:58:10,073 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 13:58:10,080 - Данные пользователей успешно сохранены.
+2024-12-13 13:58:12,292 - Данные пользователей успешно сохранены.
+2024-12-13 13:58:14,061 - Данные пользователей успешно сохранены.
+2024-12-13 14:02:43,262 - Данные загружены успешно из data.json
+2024-12-13 14:02:43,268 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:02:51,859 - Данные пользователей успешно сохранены.
+2024-12-13 14:02:52,297 - Данные пользователей успешно сохранены.
+2024-12-13 14:02:53,870 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:02:53,875 - Данные пользователей успешно сохранены.
+2024-12-13 14:02:55,367 - Данные пользователей успешно сохранены.
+2024-12-13 14:02:56,695 - Данные пользователей успешно сохранены.
+2024-12-13 14:03:05,961 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:03:06,245 - Данные пользователей успешно сохранены.
+2024-12-13 14:03:07,697 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:03:07,857 - Данные пользователей успешно сохранены.
+2024-12-13 14:03:09,204 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:03:09,411 - Данные пользователей успешно сохранены.
+2024-12-13 14:10:38,645 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:10:38,653 - Данные пользователей успешно сохранены.
+2024-12-13 14:10:40,910 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:10:40,916 - Данные пользователей успешно сохранены.
+2024-12-13 14:10:57,924 - Ошибка при обработке выбора города: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-13 14:10:57,924 - Пользователь 1376242458 выбрал город: Санкт-Петербург
+2024-12-13 14:10:57,925 - Данные пользователей успешно сохранены.
+2024-12-13 14:10:58,516 - Данные пользователей успешно сохранены.
+2024-12-13 14:10:58,766 - Данные пользователей успешно сохранены.
+2024-12-13 14:11:00,204 - Ошибка при обработке выбора города: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-13 14:11:02,348 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:11:02,357 - Данные пользователей успешно сохранены.
+2024-12-13 14:11:04,363 - Данные пользователей успешно сохранены.
+2024-12-13 14:11:05,646 - Данные пользователей успешно сохранены.
+2024-12-13 14:14:28,054 - Данные загружены успешно из data.json
+2024-12-13 14:14:28,060 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:14:35,436 - Данные пользователей успешно сохранены.
+2024-12-13 14:14:35,881 - Данные пользователей успешно сохранены.
+2024-12-13 14:14:37,219 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:14:37,225 - Данные пользователей успешно сохранены.
+2024-12-13 14:14:38,946 - Данные пользователей успешно сохранены.
+2024-12-13 14:14:40,635 - Данные пользователей успешно сохранены.
+2024-12-13 14:23:55,494 - Данные загружены успешно из data.json
+2024-12-13 14:23:55,499 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:24:04,075 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:04,555 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:05,693 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:24:05,701 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:07,339 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:08,707 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:44,277 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:24:44,430 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:45,717 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:24:45,869 - Данные пользователей успешно сохранены.
+2024-12-13 14:24:46,895 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:24:47,062 - Данные пользователей успешно сохранены.
+2024-12-13 14:39:42,003 - Данные загружены успешно из data.json
+2024-12-13 14:39:42,009 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:39:54,753 - Данные пользователей успешно сохранены.
+2024-12-13 14:39:55,245 - Данные пользователей успешно сохранены.
+2024-12-13 14:39:56,787 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:39:56,789 - Данные пользователей успешно сохранены.
+2024-12-13 14:39:59,310 - Пользователь 1376242458 вернулся на шаг: city
+2024-12-13 14:39:59,559 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:01,847 - Пользователь 1376242458 выбрал город: Сочи
+2024-12-13 14:40:01,852 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:03,291 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:05,514 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:21,450 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:40:21,645 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:24,502 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:40:24,713 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:26,117 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:40:26,281 - Данные пользователей успешно сохранены.
+2024-12-13 14:40:59,454 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:40:59,460 - Данные пользователей успешно сохранены.
+2024-12-13 14:41:01,291 - Данные пользователей успешно сохранены.
+2024-12-13 14:41:02,937 - Данные пользователей успешно сохранены.
+2024-12-13 14:48:31,454 - Данные загружены успешно из data.json
+2024-12-13 14:48:31,461 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:48:41,937 - Данные пользователей успешно сохранены.
+2024-12-13 14:48:42,377 - Данные пользователей успешно сохранены.
+2024-12-13 14:48:43,792 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 14:48:43,799 - Данные пользователей успешно сохранены.
+2024-12-13 14:48:45,224 - Данные пользователей успешно сохранены.
+2024-12-13 14:48:47,618 - Данные пользователей успешно сохранены.
+2024-12-13 14:48:50,042 - Ошибка при обработке выбора способа оплаты: 'details'
+2024-12-13 14:48:54,686 - Ошибка при обработке выбора способа оплаты: 'details'
+2024-12-13 14:48:55,898 - Ошибка при обработке выбора способа оплаты: 'details'
+2024-12-13 14:48:58,868 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 14:48:59,039 - Данные пользователей успешно сохранены.
+2024-12-13 14:51:28,550 - Данные загружены успешно из data.json
+2024-12-13 14:51:28,557 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:51:47,394 - Данные загружены успешно из data.json
+2024-12-13 14:51:47,394 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:51:57,933 - Данные пользователей успешно сохранены.
+2024-12-13 14:51:58,373 - Данные пользователей успешно сохранены.
+2024-12-13 14:52:00,738 - Пользователь 1376242458 выбрал город: Казань
+2024-12-13 14:52:00,747 - Данные пользователей успешно сохранены.
+2024-12-13 14:52:02,417 - Данные пользователей успешно сохранены.
+2024-12-13 14:52:04,243 - Данные пользователей успешно сохранены.
+2024-12-13 14:52:05,640 - Ошибка при обработке выбора способа оплаты: 'details'
+2024-12-13 14:54:57,483 - Данные загружены успешно из data.json
+2024-12-13 14:54:57,488 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 14:55:14,130 - Данные загружены успешно из data.json
+2024-12-13 14:55:14,130 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:05:52,772 - Данные загружены успешно из data.json
+2024-12-13 15:05:52,772 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:07:54,929 - Данные загружены успешно из data.json
+2024-12-13 15:07:54,929 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:08:15,559 - Данные пользователей успешно сохранены.
+2024-12-13 15:08:15,560 - Некорректная структура для 'cities'
+2024-12-13 15:08:16,003 - Данные пользователей успешно сохранены.
+2024-12-13 15:12:52,063 - Данные загружены успешно из data.json
+2024-12-13 15:12:52,069 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:13:08,617 - Данные загружены успешно из data.json
+2024-12-13 15:13:08,617 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:13:16,901 - Данные пользователей успешно сохранены.
+2024-12-13 15:13:16,901 - Некорректная структура для 'cities'
+2024-12-13 15:13:17,373 - Данные пользователей успешно сохранены.
+2024-12-13 15:13:37,843 - Данные загружены успешно из data.json
+2024-12-13 15:13:37,849 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:13:43,051 - Данные пользователей успешно сохранены.
+2024-12-13 15:13:43,051 - Некорректная структура для 'cities'
+2024-12-13 15:13:43,427 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:06,825 - Данные загружены успешно из data.json
+2024-12-13 15:15:06,826 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:15:07,663 - Ошибка при обработке кнопки 'Назад': 1376242458
+2024-12-13 15:15:07,664 - Ошибка при обработке кнопки 'Назад': 1376242458
+2024-12-13 15:15:07,664 - Ошибка при обработке кнопки 'Назад': 1376242458
+2024-12-13 15:15:08,153 - Ошибка при обработке выбора способа оплаты: 'card_type'
+2024-12-13 15:15:11,701 - Ошибка при обработке кнопки 'Назад': 1376242458
+2024-12-13 15:15:14,649 - Ошибка при обработке кнопки 'Назад': 1376242458
+2024-12-13 15:15:20,025 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:20,278 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:22,114 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 15:15:22,116 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:23,423 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:24,774 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:26,173 - Ошибка при обработке выбора способа оплаты: 'card_type'
+2024-12-13 15:15:47,682 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 15:15:47,802 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 15:15:47,831 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:47,953 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:47,968 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 15:15:48,108 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:48,971 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:49,283 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:49,580 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:49,737 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:51,567 - Данные пользователей успешно сохранены.
+2024-12-13 15:15:52,726 - Ошибка при обработке выбора способа оплаты: 'card_type'
+2024-12-13 15:16:56,108 - Данные загружены успешно из data.json
+2024-12-13 15:16:56,114 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:17:04,882 - Данные пользователей успешно сохранены.
+2024-12-13 15:17:05,362 - Данные пользователей успешно сохранены.
+2024-12-13 15:17:07,275 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 15:17:07,278 - Данные пользователей успешно сохранены.
+2024-12-13 15:17:08,635 - Данные пользователей успешно сохранены.
+2024-12-13 15:17:10,142 - Данные пользователей успешно сохранены.
+2024-12-13 15:23:49,935 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:09,138 - Ошибка при обработке команды /start: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-13 15:24:12,346 - Пользователь 1376242458 вернулся на шаг: product
+2024-12-13 15:24:12,870 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:24,307 - Ошибка при обработке выбора способа оплаты: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-13 15:24:32,070 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:32,431 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:36,574 - Пользователь 883473526 выбрал город: Самара
+2024-12-13 15:24:36,576 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:39,819 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:41,985 - Данные пользователей успешно сохранены.
+2024-12-13 15:24:53,335 - Пользователь 883473526 вернулся на шаг: product
+2024-12-13 15:24:53,503 - Данные пользователей успешно сохранены.
+2024-12-13 15:25:03,537 - Данные пользователей успешно сохранены.
+2024-12-13 15:29:35,140 - Данные загружены успешно из data.json
+2024-12-13 15:29:35,147 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:30:00,830 - Данные пользователей успешно сохранены.
+2024-12-13 15:30:01,330 - Данные пользователей успешно сохранены.
+2024-12-13 15:30:05,295 - Пользователь 883473526 выбрал город: Воронеж
+2024-12-13 15:30:05,301 - Данные пользователей успешно сохранены.
+2024-12-13 15:30:06,540 - Данные пользователей успешно сохранены.
+2024-12-13 15:30:07,620 - Данные пользователей успешно сохранены.
+2024-12-13 15:34:50,817 - Данные загружены успешно из data.json
+2024-12-13 15:34:50,831 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:34:51,337 - Ошибка при запуске бота: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2024-12-13 15:54:23,137 - Данные загружены успешно из data.json
+2024-12-13 15:54:23,137 - Данные пользователей загружены успешно из user_data.json
+2024-12-13 15:54:52,986 - Данные пользователей успешно сохранены.
+2024-12-13 15:54:53,466 - Данные пользователей успешно сохранены.
+2024-12-13 15:54:55,226 - Пользователь 1376242458 выбрал город: Москва
+2024-12-13 15:54:55,230 - Данные пользователей успешно сохранены.
+2024-12-13 15:54:56,798 - Данные пользователей успешно сохранены.
+2024-12-13 15:54:58,143 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:19,391 - Ошибка при обработке кнопки 'Назад': 883473526
+2024-12-13 15:57:26,403 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:26,569 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:29,535 - Пользователь 883473526 выбрал город: Москва
+2024-12-13 15:57:29,539 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:31,784 - Пользователь 883473526 вернулся на шаг: city
+2024-12-13 15:57:32,046 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:44,383 - Пользователь 883473526 выбрал город: Екатеринбург
+2024-12-13 15:57:44,388 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:50,342 - Данные пользователей успешно сохранены.
+2024-12-13 15:57:53,467 - Данные пользователей успешно сохранены.
+2024-12-13 15:58:33,291 - Пользователь 883473526 вернулся на шаг: product
+2024-12-13 15:58:33,525 - Данные пользователей успешно сохранены.
+2024-12-13 15:58:35,289 - Пользователь 883473526 вернулся на шаг: product
+2024-12-13 15:58:35,441 - Данные пользователей успешно сохранены.
+2024-12-13 15:58:36,707 - Пользователь 883473526 вернулся на шаг: product
+2024-12-13 15:58:36,905 - Данные пользователей успешно сохранены.
